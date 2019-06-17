@@ -1,14 +1,14 @@
-# Employee Databse
+ #Employee Databse
 
 departments
 -
-dept_no VARCHAR FK
+dept_no VARCHAR PK
 dept_name VARCHAR
 
 
 dept_manager
 -
-dept_no VARCHAR FK
+dept_no VARCHAR 
 emp_no INT PK
 from_date DATE
 to_date DATE
@@ -16,7 +16,7 @@ to_date DATE
 
 dept_emp
 -
-emp_no INT PK
+emp_no INT 
 dept_no INT FK
 from_date DATE
 to_date DATE
@@ -34,7 +34,7 @@ hire_date DATE
 
 salaries
 -
-emp_no INT PK
+emp_no INT 
 salary INT
 from_date DATE
 to_date DATE
@@ -42,7 +42,7 @@ to_date DATE
 
 titles
 -
-emp_no INT PK
+emp_no INT 
 title VARCHAR
 from_date DATE
 to_date DATE
